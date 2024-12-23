@@ -12,6 +12,5 @@ requests
 scikit-learn
 scipy
 six
-sklearn
 tensorboard
 torch==1.12
