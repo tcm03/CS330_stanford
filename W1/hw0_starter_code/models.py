@@ -115,7 +115,7 @@ class MultiTaskNet(nn.Module):
 
         self.mlp = nn.Sequential(
             nn.Linear(layer_sizes[0], layer_sizes[1]),
-            F.relu(),
+            nn.ReLU(),
             nn.Linear(layer_sizes[1], 1)
         )
 
